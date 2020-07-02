@@ -10,7 +10,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES SUFFIX ".html" LINK_FLAGS
 set_target_properties(
   ${PROJECT_NAME}
   PROPERTIES LINK_FLAGS "-s WASM=0 \
-       -s EXPORTED_FUNCTIONS='[\"_add\"]' -s INVOKE_RUN=0 \
+       -s EXPORTED_FUNCTIONS='[\"_add\", \"_main\"]'  \
        -s EXTRA_EXPORTED_RUNTIME_METHODS='[\"cwrap\"]'")
 
 install(
