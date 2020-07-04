@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(cmake-emscripten-hello-world)
+project(hello-world)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
