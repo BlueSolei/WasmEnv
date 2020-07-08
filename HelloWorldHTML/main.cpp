@@ -1,5 +1,9 @@
 #include <iostream>
+#include <string>
+
+#include "src/Greet.h"
 
 int main() {
-  std::cout << "Hello Emscripten." << std::endl;
+  std::string greet = Greet();
+  std::cout << "Hello Emscripten. " << greet << std::endl;
 }
