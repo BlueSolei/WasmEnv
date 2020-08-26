@@ -1,0 +1,11 @@
+{
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "cmake.skipConfigureIfCachePresent": true,
+    "files.eol": "\n",
+    "files.associations": {
+        "fstream": "cpp",
+        "xlocmes": "cpp",
+        "ostream": "c"
+    }
+}
