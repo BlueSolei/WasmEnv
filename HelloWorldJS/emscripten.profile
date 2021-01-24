@@ -8,5 +8,5 @@ compiler.libcxx=libc++
 
 [options]
 [build_requires]
-emsdk_installer/2.0.4
+emsdk_installer/2.0.11
 [env]
